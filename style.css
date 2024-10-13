@@ -3,6 +3,10 @@ nav {
     justify-content: space-between;
 }
 
+nav div {
+    align-items: center;
+}
+
 nav div img {
     width: 100px;
 }
@@ -16,4 +20,17 @@ nav ul li a {
     margin: 15px;
     color: white;
     font-size: 14pt;
+}
+
+#sign_in_button {
+    margin-top: 10px;
+}
+
+#sign_in_button a {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    align-content: center;
 }
