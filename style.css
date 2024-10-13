@@ -6,3 +6,14 @@ nav {
 nav div img {
     width: 100px;
 }
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+}
+nav ul li a {
+    margin: 15px;
+    color: white;
+    font-size: 14pt;
+}
